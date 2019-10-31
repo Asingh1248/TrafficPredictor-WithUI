@@ -15,9 +15,9 @@ https://traffic-volume-predictor.herokuapp.com
 
 ### Deployment Instructions
 - Install all the packages as specified in the 
-[Requirements File]
+[Requirements File](https://github.com/Asingh1248/TrafficPredictor-WithUI/blob/master/requirements.txt)
 
--Execute the app.py
+- Execute the app.py
 - link will be generated http://127.0.0.1:5000/  click on it
 
 
