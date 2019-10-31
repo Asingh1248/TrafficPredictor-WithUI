@@ -13,6 +13,16 @@ https://traffic-volume-predictor.herokuapp.com
 - Frontend Framework - [HTML,CSS,JavaScript] 
 
 
+### Deployment Instructions
+- Install all the packages as specified in the 
+[Requirements File]
+
+-Execute the app.py
+- link will be generated http://127.0.0.1:5000/  click on it
+
+
+
+
 
 
 
