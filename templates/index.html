@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Traffic Prediction</h2>
+
+<div>
+<form action="{{ url_for('predict')}}" method="POST">
+  is_holiday: <input type="text" name="is_holiday" value=0><br>
+  air_pollution_index: <input type="text" name="air_pollution_index" value=121><br>
+  humidity: <input type="text" name="humidity" value=89><br>
+  wind_speed: <input type="text" name="wind_speed" value=2><br>
+  wind_direction: <input type="text" name="wind_direction" value=329><br>
+  visibility_in_miles: <input type="text" name="visibility_in_miles" value=1><br>
+  dew_point: <input type="text" name="dew_point" value=1><br>
+  temperature: <input type="text" name="temperature" value=288><br>
+  rain_p_h: <input type="text" name="rain_p_h" value=0><br>
+  snow_p_h: <input type="text" name="snow_p_h" value=0><br>
+  clouds_all: <input type="text" name="clouds_all" value=40><br>
+  weather_type: <input type="text" name="weather_type" value=1><br>
+  weather_description: <input type="text" name="weather_description" value=2><br>
+  Year: <input type="text" name="Year" value=2012 ><br>
+  Month: <input type="text" name="Month" value=10><br>
+  Day: <input type="text" name="Day" value=2><br>
+  hour: <input type="text" name="hour" value=9><br>
+
+
+
+  <input type="submit">
+</form>
+
+<!-- Place Holder to Get the Output -->
+ <br>
+    {{prediction_text}}
+ <br>
+
+</div>
+</body>
+</html>
